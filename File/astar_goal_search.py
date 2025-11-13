@@ -1,17 +1,3 @@
-|       |                                   |
-| ----- | --------------------------------- |
-| Nama  | Zalfa Dewi Zahrani (312210320) |
-| Kelas | TI.22.A.SE.1                      |
-| Tugas | Kecerdasan Buatan                 |
-
-# Penjelasan Singkat
-
-Algoritma A\* digunakan untuk mencari jalur terpendek dari titik awal (start) ke titik tujuan (goal) di dalam peta/grid yang memiliki rintangan (1 = halangan, 0 = jalan bebas).
-Heuristik yang digunakan adalah Manhattan Distance, yaitu jumlah jarak horizontal dan vertikal antar dua titik.
-
-# Kodingan Lengkap
-
-```py
 # =========================================
 # Algoritma Pencarian Berbasis Tujuan (A*)
 # =========================================
@@ -101,30 +87,3 @@ plt.legend()
 plt.gca().invert_yaxis()
 plt.grid(True)
 plt.show()
-```
-
-# Cara Menjalankan Program
-
-1. Persiapkan Lingkungan
-   Pastikan kamu sudah menginstal Python dan library berikut:
-   `pip install matplotlib numpy`
-
-2. Simpan Kode
-   Simpan kode di atas dalam file Python, misalnya:
-   `astar_goal_search.py`
-
-3. Jalankan Program
-   Buka terminal atau CMD, lalu ketik:
-   `python astar_goal_search.py`
-
-4. Hasil yang Ditampilkan
-   Terminal akan menampilkan jalur optimal dan jumlah langkah.
-   Jendela grafik akan muncul menunjukkan:
-   Kotak hitam = halangan (tidak bisa dilalui)
-   Jalur biru muda = rute yang ditempuh agen
-   Bintang hijau = titik awal
-   Bintang merah = tujuan
-
-# Output
-
-![gambar](File/foto1.png)
